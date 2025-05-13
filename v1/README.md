@@ -30,7 +30,7 @@
 Same parts as above but instead of `adaptor.stl` and `probe_holder.stl` print `adapter_no_probe_holder.stl` 
 
 ## Print settings
-- **Files are already in the correct orientation**
+- **Files are already in the correct orientation. PETG recommended, but I think PLA would be fine as well, just not as durable longterm.**
 
 | File | Layer height | Walls (0.4mm nozzle) | Infill | Support | Support type | Ironing |
 |--|--|--|--|--|--|--|

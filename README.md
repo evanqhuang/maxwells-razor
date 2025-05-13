@@ -14,7 +14,7 @@ Typical 3D printed gadgets are laden with hyper specific parts that increases th
 
 I took inspiration from the [Maxwell kinematic coupling](https://en.wikipedia.org/wiki/Kinematic_coupling) and applied [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) to the design process, the simplest solution is usually the best one. Originally, I had a press fit ball bearing on one side, with metal dowels on the other ([/metal]([./metal])). This worked great but I was dissapointed with the need to have 2 additional non printed parts, which can be hard to obtain. I was able to simplify this into a completely 3D printed coupling with [/v1](./v1).
 
-Printing instructions are located in the respective folders for each version of the toolchanger, e.x. [/v1/README.md](./v1/README.md) or  [/metal/README.md](./metal/README.md). The current versions are only compatible with the Hypercube EVO (and maybe the original Hypercube, untested). 
+Printing instructions are located in the respective folders for each version of the toolchanger, e.x. [/v1/README.md](./v1/README.md) or  [/metal/README.md](./metal/README.md). The current versions are only compatible with the Hypercube EVO (and maybe the original Hypercube, untested). All parts were prototyped with a refurbished Elegoo Neptune 4 I bought for 90USD and 12USD/kg PETG, so don't worry if you only have a cheap 3D printer. 
 
 A major modification you will need is **sensorless homing**, this removes the need to redesign the X and Y endstops on the Hypercube and also makes it much easier to adapt the design to other printers. 
 
