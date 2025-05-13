@@ -5,13 +5,14 @@
 ## Table of Contents
 - [About](#-about)
 - [Contributions](#-contributions)
+- [Disclaimer](#-disclaimer)
 - [License](#-license)
 
 ## About
 
 Typical 3D printed gadgets are laden with hyper specific parts that increases the BOM cost significantly. I tried to find a completely mechanical toolchanger and only found over-engineered designs with large BOM's and complex assembly. I designed Maxwell's Razor to use as few non-printed parts as possible, the coupling is entirely 3D printed with the most special part being a few neodymium magnets to securely attach the printheads to the gantry. In addition, the docking mechanism is completely mechanical and 3D printed as well. 
 
-I took inspiration from the [Maxwell kinematic coupling](https://en.wikipedia.org/wiki/Kinematic_coupling) and applied Occam's Razor to the design process, the simplest solution is usually the best one. Originally, I had a press fit ball bearing on one side, with metal dowels on the other ([/metal]([./metal])). This worked great but I was dissapointed with the need to have 2 additional non printed parts, which can be hard to obtain. I was able to simplify this into a completely 3D printed coupling with [/v1](./v1).
+I took inspiration from the [Maxwell kinematic coupling](https://en.wikipedia.org/wiki/Kinematic_coupling) and applied [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) to the design process, the simplest solution is usually the best one. Originally, I had a press fit ball bearing on one side, with metal dowels on the other ([/metal]([./metal])). This worked great but I was dissapointed with the need to have 2 additional non printed parts, which can be hard to obtain. I was able to simplify this into a completely 3D printed coupling with [/v1](./v1).
 
 Printing instructions are located in the respective folders for each version of the toolchanger, e.x. [/v1/README.md](./v1/README.md) or  [/metal/README.md](./metal/README.md). The current versions are only compatible with the Hypercube EVO (and maybe the original Hypercube, untested). 
 
@@ -28,6 +29,6 @@ If you've adapted the design for your use case, please don't hesitate to open a 
 ## License
 
 This project is distributed under the [CERN-OHL-W-2.0 license](https://github.com/evanqhuang/maxwells-razor/tree/main#CERN-OHL-W-2.0-1-ov-file). This means that modifications need to be distributed as open source. E.g. if you made a design for a Voron printer, you would have to openly distribute the modified parts only. 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIxNTg5MSwtODQxNjM5MzgwXX0=
--->
+
+## Disclaimer
+I am not a mechanical engineer or anything like that, just a hobbyist that's been involved in 3D printers since the RepRap days. Therefore, these modifications should be done at your own risk, etc. I am not liable for any damages that may occur as a result of the modifications in this repo.
