@@ -3,10 +3,10 @@
 ### Maxwell Coupling + Occam's Razor
 
 ## Table of Contents
-- [About](#-about)
-- [Contributions](#-contributions)
-- [Disclaimer](#-disclaimer)
-- [License](#-license)
+- [About](#about)
+- [Contributions](#contributions)
+- [Disclaimer](#disclaimer)
+- [License](#license)
 
 ## About
 
@@ -26,9 +26,9 @@ Special thanks to Scott3D for the [original Hypercube EVO design](https://www.th
 
 If you've adapted the design for your use case, please don't hesitate to open a PR!
 
+## Disclaimer
+I am not a mechanical engineer or anything like that, just a hobbyist that's been involved in 3D printers since the RepRap days. Therefore, these modifications should be done at your own risk, etc. I am not liable for any damages that may occur as a result of the modifications in this repo.
+
 ## License
 
 This project is distributed under the [CERN-OHL-W-2.0 license](https://github.com/evanqhuang/maxwells-razor/tree/main#CERN-OHL-W-2.0-1-ov-file). This means that modifications need to be distributed as open source. E.g. if you made a design for a Voron printer, you would have to openly distribute the modified parts only. 
-
-## Disclaimer
-I am not a mechanical engineer or anything like that, just a hobbyist that's been involved in 3D printers since the RepRap days. Therefore, these modifications should be done at your own risk, etc. I am not liable for any damages that may occur as a result of the modifications in this repo.

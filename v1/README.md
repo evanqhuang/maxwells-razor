@@ -3,7 +3,7 @@
 ### With an inductive Z probe sensor
 
 #### For the X carriage coupling adapter
-- **Follow [Print settings](#-print-settings) below**
+- **Follow [Print settings](#print-settings) below**
 - `adapter.stl` and `probe_holder.stl`
 - 6x - 12mm x 3mm neodymium magnets (recommended to be N42 or N52, weaker ones won't hold the printhead securely enough)
 - 1x inductive sensor - fits up to an 18mm diameter sensor
@@ -11,7 +11,7 @@
 - The adapter is the only piece that has a recommended high resolution layer height and ironing. You could have issues with mating if the adapter surface is not flat or if the half sphere is not as close to round as possible.
 
 #### For each printhead
-- **Follow [Print settings](#-print-settings) below**
+- **Follow [Print settings](#print-settings) below**
 - `dock_left_hand.stl`
 - `extruder_mount.stl`
 - `retainer.stl`
@@ -58,9 +58,3 @@ These files don't have any specific print setting requirements:
  - Melt heat set inserts into "bridge" of the extruder mount, secure hotend with `retainer.stl` and 17mm M3 bolts
  - Self tap 23mm M3 bolt to attach 5015 fan
  - Self tap 8mm M3 bolt to attach `shroud.stl` and `hotend_cable_holder.stl`
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTIyMTE4NywtNzMzODAwMzk5LC0xMz
-QwNzA5NDc0LC02NDM2MzY0ODYsMTk1NDc5MDAxOSwtMjQyMjEx
-Nzk3LDIxNDA4MDA3ODMsMzIyNDM2OTUsLTExOTY0NjczNDVdfQ
-==
--->

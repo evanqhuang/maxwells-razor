@@ -2,7 +2,7 @@
 This is mostly to keep track of a POC using more non-printed parts, this is not fully completed.
 
 ## BOM
-- **Follow [Print settings](#-print-settings) below**
+- **Follow [Print settings](#print-settings) below**
 - `extruder_mount.stl`
 - `x_carriage.stl`
 - 6x - 10mm x 2mm neodymium magnets (recommended to be N42 or N52, weaker ones won't hold the printhead securely enough)
