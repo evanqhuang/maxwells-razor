@@ -37,8 +37,8 @@ Same parts as above but instead of `adaptor.stl` and `probe_holder.stl` print `a
 | `adapter.stl` | 0.1mm | 4 | 30% | :white_check_mark: | Normal | :white_check_mark: |  |
 | `probe_holder.stl` | 0.2mm | 3 | 30% | :x: | :x: | :x: |
 | `adapter_no_probe_holder.stl` | 0.1mm | 4 | 30% | :white_check_mark: | Normal | :white_check_mark: |
-| `dock_left_hand.stl` | 0.2mm | 2 | 30% | :white_check_mark: | Tree | :x: |
-| `dock_right_hand.stl` | 0.2mm | 2 | 30% | :white_check_mark: | Tree | :x: |
+| `dock_left_hand.stl` | 0.2mm | 2 | 30% | :x: | :x: | :x: |
+| `dock_right_hand.stl` | 0.2mm | 2 | 30% | :x: | :x: | :x: |
 | `extruder_mount.stl` | 0.2mm | 4 | 30% | :x: | Normal | :x: |
 | `retainer.stl` | 0.2mm | 4 | 30% | :x: | Normal | :x: |
 
@@ -58,3 +58,22 @@ These files don't have any specific print setting requirements:
  - Melt heat set inserts into "bridge" of the extruder mount, secure hotend with `retainer.stl` and 17mm M3 bolts
  - Self tap 23mm M3 bolt to attach 5015 fan
  - Self tap 8mm M3 bolt to attach `shroud.stl` and `hotend_cable_holder.stl`
+
+## Klipper Setup
+
+- All necessary `.cfg` files are in [klipper_config](v1/klipper_config)
+- To set the position of the leftmost dock (which is T1 in the config):
+- Partially secure the dock to the frame, then
+  ```
+    # align with dock
+    G1 X32 Y20 F3000
+    # attach to toolhead
+    G1 X32 Y0 F3000
+  ```
+  This will position the carriage right where the `PICK_extruder` macro expects the toolhead to be. Then, slide the dock into the correct position, the magnets will lock it into place. Tighten the screws and repeat for the next dock with:
+  ```
+    # align with dock
+    G1 X180 Y20 F3000
+    # attach to toolhead
+    G1 X180 Y0 F3000
+  ```
