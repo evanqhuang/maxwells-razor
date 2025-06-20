@@ -37,8 +37,8 @@ Same parts as above but instead of `adaptor.stl` and `probe_holder.stl` print `a
 | `adapter.stl` | 0.1mm | 4 | 30% | :white_check_mark: | Normal | :white_check_mark: |  |
 | `probe_holder.stl` | 0.2mm | 3 | 30% | :x: | :x: | :x: |
 | `adapter_no_probe_holder.stl` | 0.1mm | 4 | 30% | :white_check_mark: | Normal | :white_check_mark: |
-| `dock_left_hand.stl` | 0.2mm | 2 | 30% | :x: | :x: | :x: |
-| `dock_right_hand.stl` | 0.2mm | 2 | 30% | :x: | :x: | :x: |
+| `dock_left_hand.stl` | 0.2mm | 2 | 30% | :white_check_mark: | Tree | :x: |
+| `dock_right_hand.stl` | 0.2mm | 2 | 30% | :white_check_mark: | Tree | :x: |
 | `extruder_mount.stl` | 0.2mm | 4 | 30% | :x: | Normal | :x: |
 | `retainer.stl` | 0.2mm | 4 | 30% | :x: | Normal | :x: |
 
