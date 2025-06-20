@@ -1,4 +1,5 @@
-# Maxwell's Razor
+<img src="https://github.com/user-attachments/assets/a2ba3245-dfee-49b9-944a-884493774b10" width="800px">
+
 ### A simpler, modular, 90% 3D printed, 3D printer toolchanger
 ### Maxwell Coupling + Occam's Razor
 <img src="https://github.com/user-attachments/assets/31325f4e-c43f-4515-93e2-484d81ccb187" width="600">
