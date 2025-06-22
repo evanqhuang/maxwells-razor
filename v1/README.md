@@ -61,19 +61,14 @@ These files don't have any specific print setting requirements:
 
 ## Klipper Setup
 
-- All necessary `.cfg` files are in [klipper_config](v1/klipper_config)
+- All necessary `.cfg` files are in [klipper_config](v1/klipper_config), place these in `printer_data/config/` on your raspberry pi
+- Copy `printer_variables.cfg` as well to the home directory on your raspberry pi, this contains the variables for positioning the toolhead docks
 - To set the position of the leftmost dock (which is T1 in the config):
 - Partially secure the dock to the frame, then
   ```
-    # align with dock
-    G1 X32 Y20 F3000
-    # attach to toolhead
-    G1 X32 Y0 F3000
+  ALIGN_DOCK
   ```
   This will position the carriage right where the `PICK_extruder` macro expects the toolhead to be. Then, slide the dock into the correct position, the magnets will lock it into place. Tighten the screws and repeat for the next dock with:
   ```
-    # align with dock
-    G1 X180 Y20 F3000
-    # attach to toolhead
-    G1 X180 Y0 F3000
+  ALIGN_DOCK1
   ```
