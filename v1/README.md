@@ -7,7 +7,7 @@
 - `adapter.stl` and `probe_holder.stl`
 - 6x - 12mm x 3mm neodymium magnets (recommended to be N42 or N52, weaker ones won't hold the printhead securely enough)
 - 1x inductive sensor - fits up to an 18mm diameter sensor
-- 1x 17mm M3 bolt - to secure the inductive sensor
+- 1x 6mm M3 bolt - to secure the inductive sensor
 - The adapter is the only piece that has a recommended high resolution layer height and ironing. You could have issues with mating if the adapter surface is not flat or if the half sphere is not as close to round as possible.
 
 #### For each printhead
@@ -22,9 +22,9 @@
 - 2x - M3 heat set insert
 - 3x - 12mm x 3mm neodymium magnets
 - **The lengths below are what I used but you can easily use slightly different lengths based on what you have available**
-- 23mm M3 bolt - for attaching part cooling fan
-- 2x - 17mm M3 bolt - for attaching retainer to extruder mount
-- 4x - 8mm M3 bolt - for attaching part cooling fan shroud and hotend cable holder
+- 20mm M3 bolt - for attaching part cooling fan
+- 2x - 14mm M3 bolt - for attaching retainer to extruder mount
+- 4x - 5mm M3 bolt - for attaching part cooling fan shroud and hotend cable holder
 
 ### Bring your own Z end stop solution
 Same parts as above but instead of `adaptor.stl` and `probe_holder.stl` print `adapter_no_probe_holder.stl` 
