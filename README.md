@@ -32,6 +32,8 @@ Most widely available 3D printers only have a single extrusion head. The only co
 Those with Bambu/Prusa printers might wonder about the [BambuLabs AMS](https://us.store.bambulab.com/collections/all-ams) and the [Prusa MMU](https://www.prusa3d.com/category/original-prusa-mmu3/). However, the major distinction is that these options are only **multi-color**. Because the printhead is shared between all filaments you can only print in a single material at once. This greatly limits the usefulness of the AMS in more technical applications. 
 
 With multiple printheads, you can move beyond simple filament swapping and create complex parts. For example, you can print a hard PETG lid with an integrated, flexible TPU gasket, or a phone case that combines a rigid shell with shock-absorbing TPU. Another key benefit is being able to print support in a different material than the object. Since the materials don't bond, the supports pop right off and leave a flawless surface with no effort. 
+
+Lastly, the modular nature of a toolchanger allows you to even create toolheads that aren't for extruding. Imagine printing a blank luggage tag, and then switching to a laser toolhead to engrave your contact information directly onto it in one go. 
  
 
 ## Contributions
