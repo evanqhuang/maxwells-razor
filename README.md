@@ -7,13 +7,14 @@
 
 ## Table of Contents
 - [About](#about)
+- [Why toolchangers?](#why-toolchangers)
 - [Contributions](#contributions)
 - [Disclaimer](#disclaimer)
 - [License](#license)
 
 ## About
 
-Typical 3D printed gadgets are laden with hyper specific parts that increases the BOM cost significantly. I tried to find a completely mechanical toolchanger and only found over-engineered designs with large BOM's and complex assembly. I designed Maxwell's Razor to use as few non-printed parts as possible, the coupling is entirely 3D printed with the most special part being a few neodymium magnets to securely attach the printheads to the gantry. In addition, the docking mechanism is completely mechanical and 3D printed as well. 
+Typical 3D printed gadgets are laden with hyper specific parts that increases the BOM cost significantly. I tried to find a completely mechanical toolchanger and only found over-engineered designs with large BOM's and complex assembly. I designed Maxwell's Razor to use as few non-printed parts as possible, the coupling is entirely 3D printed with the most special part being a few neodymium magnets to securely attach the printheads to the gantry. In addition, the docking mechanism is completely mechanical and 3D printed as well. Estimated cost per toolhead (including hotend and stepper) is well under 20USD. Most of the cost comes from the extra stepper and E3D V6 hotend, the design only uses 1 USD worth of magnets for each toolhead. 
 
 I took inspiration from the [Maxwell kinematic coupling](https://en.wikipedia.org/wiki/Kinematic_coupling) and applied [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) to the design process, the simplest solution is usually the best one. Originally, I had a press fit ball bearing on one side, with metal dowels on the other ([/metal]([./metal])). This worked great but I was dissapointed with the need to have 2 additional non printed parts, which can be hard to obtain. I was able to simplify this into a completely 3D printed coupling with [/v1](./v1).
 
@@ -24,6 +25,12 @@ A major modification you will need is **sensorless homing**, this removes the ne
 STEP files are also provided so that you can easily modify the parts for your use case. 
 
 Special thanks to Scott3D for the [original Hypercube EVO design](https://www.thingiverse.com/thing:2254103).
+
+### Why toolchangers?
+Most widely available 3D printers only have a single extrusion head. The only commercially available toolchanging system is the [Prusa XL](https://www.prusa3d.com/en/product/original-prusa-xl-semi-assembled-2-toolhead-3d-printer/), which costs 2500USD as of writing, for just 2 printheads. 
+
+Those with Bambu/Prusa printers might wonder about the [BambuLabs AMS](https://us.store.bambulab.com/collections/all-ams) and the [Prusa MMU](https://www.prusa3d.com/category/original-prusa-mmu3/). However, the major distinction is that these options are only **multi-color**. Because the printhead is shared between all filaments you can only print in a single material at once. This greatly limits the usefulness of the AMS in more technical applications. With multiple printheads, you can move beyond simple filament swapping and create complex parts. For example, you can print a hard PETG lid with an integrated, flexible TPU gasket, or a phone case that combines a rigid shell with shock-absorbing TPU. Another key benefit is being able to print support in a different material than the object. Since the materials don't bond, the supports pop right off and leave a flawless surface with no effort. 
+ 
 
 ## Contributions
 
