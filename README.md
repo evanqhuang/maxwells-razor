@@ -1,9 +1,19 @@
-<img src="https://github.com/user-attachments/assets/a2ba3245-dfee-49b9-944a-884493774b10" width="800px">
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/a2ba3245-dfee-49b9-944a-884493774b10" width="800px">
+</p>
+<h2 align="center">
+A simpler, modular, 90% 3D printed, 3D printer toolchanger
+ 
+Maxwell Coupling + Occam's Razor
 
-### A simpler, modular, 90% 3D printed, 3D printer toolchanger
-### Maxwell Coupling + Occam's Razor
+[![Thingiverse](https://a11ybadges.com/badge?logo=thingiverse)](https://www.thingiverse.com/thing:7074453)
+
+</h2>
+<p align="center">
 <img src="https://github.com/user-attachments/assets/31325f4e-c43f-4515-93e2-484d81ccb187" height="350">
 <img src="https://github.com/user-attachments/assets/05419af5-633a-43b1-976a-13e256da2a34" height="350">
+</p>
+
 
 ## Table of Contents
 - [About](#about)
