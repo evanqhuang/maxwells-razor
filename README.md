@@ -10,7 +10,7 @@ Maxwell Coupling + Occam's Razor
 
 </h2>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/31325f4e-c43f-4515-93e2-484d81ccb187" height="400">
+<img src="https://github.com/user-attachments/assets/5cdbce9a-3f96-4e06-ad13-d1d88e3cb732" height="400">
 <img src="https://github.com/user-attachments/assets/cc918851-83fa-48d1-bb6e-ddeb8659f7ee" height="400"></video>
 </p>
 
